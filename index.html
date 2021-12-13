@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <title>ENSIME</title>
+    <style>
+      /*
+       * https://memory-alpha.fandom.com/wiki/Star_Trek_fonts
+       * https://github.com/wrstone/fonts-startrek
+       */
+      @font-face {
+          font-family: "star trek next";
+          src: url("star-trek-next.ttf");
+      }
+      @font-face {
+          font-family: "star trek gen";
+          src: url("star-trek-gen.ttf");
+      }
+      @font-face {
+          font-family: "crillee";
+          src: url("crillee.ttf");
+      }
+      body {
+          padding-left: 25%;
+          padding-right: 25%;
+          font-family: "crillee";
+          font-size: 125%;
+          color: #2270c1;
+          background-color: black;
+          /* https://stackoverflow.com/questions/33948011/creating-a-starry-background-in-css/33948325#33948325 */
+          background-image:
+              radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+              radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+              radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+              radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+          background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+          background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+      }
+      h1 {
+          font-family: "star trek next";
+      }
+      h2 {
+          font-family: "star trek gen";
+      }
+      p {
+          text-align: justify;
+      }
+      a {
+          color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ENSIME</h1>
+    <h2>The Next Generation</h2>
+    <p>The ENhanced Scala Interaction Mode for Emacs is a tooling project that started in 2010 and brought together hundreds of Free Software contributors from diverse backgrounds. At its peak, 10% of Scala developers were using ENSIME as their IDE for Scala.</p>
+    <p>ENSIME pioneered community-oriented development in the Scala community and was the first to introduce a truly inclusive code of conduct.</p>
+    <p>In 2018, the Scala Center chose to fund a fresh alternative. ENSIME lost its relevance and the community disbanded.</p>
+    <p>In 2022, ENSIME was relaunched as an invite-only project for hobbyists who write tooling to make their lives a little bit more joyful.</p>
+    <p>Public snapshot releases may appear here, at the discretion of the authors. You may request an invitation <a href="https://contributors.scala-lang.org/t/ensime-the-next-generation/5474">on the Scala Contributors forum</a> (or via a direct message to the author) if there is something you would like to contribute.</p>
+  </body>
+</html>
